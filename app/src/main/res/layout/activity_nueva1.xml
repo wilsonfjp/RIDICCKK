@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nueva1">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_margin="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#0041FF">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ingrese Datos
+"
+                android:gravity="center"
+                android:textColor="#FFFFFF">
+
+            </TextView>
+
+        </RelativeLayout>
+        <GridLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:rowCount="2">
+            <EditText
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nombre de Usuario"
+                android:textColorHint="#0449FA"/>
+
+            <EditText
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Nombre"
+                android:textColorHint="#0449FA"/>
+            <EditText
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Direccion"
+                android:textColorHint="#0449FA"/>
+
+            <EditText
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Telefono"
+                android:textColorHint="#0449FA"/>
+            <EditText
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Contraseña"
+                android:textColorHint="#0449FA"/>
+
+            <EditText
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Repetir Contraseña"
+                android:textColorHint="#0449FA"/>
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/o"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="Genero: "/>
+                <RadioButton
+                    android:id="@+id/m"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Masculino"/>
+                <RadioButton
+                    android:id="@+id/f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Femenino"/>
+                <RadioButton
+                    android:id="@+id/o"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="otro"/>
+
+
+            </RadioGroup>
+
+            <Button
+                android:layout_margin="10dp"
+                android:background="#004BFF"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Registrarme"/>
+
+
+
+
+        </GridLayout>
+        <GridLayout
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="1"
+            android:rowCount="2">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="¿Ya estas registrado?"
+                android:gravity="center"
+                android:textColor="#043DF1"/>
+
+
+
+
+        </GridLayout>
+
+
+
+
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>
